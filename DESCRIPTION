@@ -1,0 +1,13 @@
+Package: MiAppShiny
+Type: Package
+Title: Título de tu Aplicación
+Version: 1.0
+Imports:
+    shiny,
+    ggplot2,
+    dplyr,
+    plotly,
+    shinydashboard
+
+
+

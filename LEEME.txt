@@ -1,0 +1,65 @@
+
+# Proyecto de Shiny App
+
+Este repositorio contiene los archivos necesarios para una aplicación Shiny desarrollada en R. A continuación, se detallan los componentes y la estructura de los archivos incluidos, así como una guía básica para la instalación y el uso del proyecto.
+
+## Estructura del Proyecto
+
+El proyecto está compuesto por los siguientes archivos clave:
+
+- **`app.R`**: Archivo principal que lanza la aplicación Shiny. Combina todos los componentes (`ui`, `server`, etc.) y los ejecuta.
+- **`global.R`**: Contiene las variables globales, funciones y librerías que se cargarán al iniciar la aplicación. Este archivo se ejecuta una sola vez al inicio.
+- **`server.R`**: Define la lógica del servidor para la aplicación Shiny. Aquí se manejan las reacciones a las entradas del usuario, la manipulación de datos y la renderización de los outputs.
+- **`ui.R`**: Define la interfaz de usuario de la aplicación Shiny, incluyendo la disposición de los controles, gráficos y otros elementos visuales.
+
+## Importante
+
+**Nota:** En este repositorio solo se comparte el código de R utilizado para crear la aplicación y los scripts empleados para generar los gráficos. Las imágenes en mapa de bits (como PNG o JPG) no están incluidas en el repositorio. Por lo tanto, si ejecutas la aplicación, las imágenes no se cargarán automáticamente. Deberás reemplazar estas imágenes o generar nuevas según los scripts proporcionados.
+
+## Requisitos
+
+Antes de ejecutar la aplicación, asegúrate de tener instalados los siguientes elementos:
+
+- R (versión 4.0 o superior)
+- RStudio (opcional, pero recomendado)
+- Librerías R necesarias para el funcionamiento de la app (ej., `shiny`, `ggplot2`, etc.)
+
+Puedes instalar las librerías requeridas ejecutando el siguiente código en R:
+
+```R
+install.packages(c("shiny", "ggplot2", "...")) # Añade otras librerías necesarias
+```
+
+## Instalación y Ejecución
+
+1. Clona este repositorio en tu máquina local:
+   ```bash
+   git clone https://github.com/tu_usuario/tu_repositorio.git
+   ```
+2. Abre el proyecto en RStudio o tu entorno de desarrollo preferido.
+3. Ejecuta `app.R` para iniciar la aplicación.
+
+```R
+source("app.R")
+```
+
+## Uso de la Aplicación
+
+La aplicación está diseñada para [describir la funcionalidad principal]. Para interactuar con la app, los usuarios pueden [detallar interacciones clave].
+
+## Contribuciones
+
+Si deseas contribuir a este proyecto, por favor sigue estos pasos:
+
+1. Haz un fork del repositorio.
+2. Crea una nueva rama (`git checkout -b feature/nueva-funcionalidad`).
+3. Realiza tus cambios y súbelos (`git commit -am 'Añadir nueva funcionalidad'`).
+4. Envía un Pull Request.
+
+## Licencia
+
+Este proyecto está bajo la licencia [indicar licencia, e.g., MIT License].
+
+## Contacto
+
+Para preguntas o sugerencias, por favor contacta a [tu correo o redes].
